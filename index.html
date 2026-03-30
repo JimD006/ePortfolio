@@ -5,38 +5,66 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
+            margin: 0;
+            background-color: #f4f6f8;
         }
-        h1, h2 {
-            color: #333;
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
         }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
         .section {
             background: white;
             padding: 20px;
-            margin-bottom: 20px;
+            margin-top: 20px;
             border-radius: 8px;
         }
-        a {
-            color: #0066cc;
+
+        h2 {
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 14px;
+            background-color: #2563eb;
+            color: white;
+            border-radius: 5px;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .btn:hover {
+            background-color: #1d4ed8;
         }
     </style>
 </head>
 <body>
 
+<header>
     <h1>James D. Webb</h1>
-    <h2>Computer Science ePortfolio</h2>
+    <p>Computer Science ePortfolio</p>
+</header>
+
+<div class="container">
 
     <div class="section">
         <p>
             Welcome to my ePortfolio. This site showcases the work I completed during my
-            Computer Science program at Southern New Hampshire University. The projects
-            below demonstrate my skills in software development, data structures,
-            cybersecurity, and database design.
+            Computer Science program at Southern New Hampshire University.
         </p>
     </div>
 
@@ -44,13 +72,8 @@
         <h2>Software Design & Engineering</h2>
 
         <p><strong>Rescue Animal System (Original)</strong></p>
-        <a href="https://github.com/jimd006/it145-original" target="_blank">
-            View Original Project
-        </a>
-
-        <p><strong>Rescue Animal System (Enhanced)</strong></p>
-        <a href="https://github.com/jimd006/it145-enhanced" target="_blank">
-            View Enhanced Project
+        <a class="btn" href="https://github.com/jimd006/it145-original" target="_blank">
+            View Project
         </a>
     </div>
 
@@ -58,13 +81,8 @@
         <h2>Databases</h2>
 
         <p><strong>Travlr Getaways (Original)</strong></p>
-        <a href="https://github.com/jimd006/travlr-original" target="_blank">
-            View Original Project
-        </a>
-
-        <p><strong>Travlr Getaways (Enhanced)</strong></p>
-        <a href="https://github.com/jimd006/travlr-enhanced" target="_blank">
-            View Enhanced Project
+        <a class="btn" href="https://github.com/jimd006/travlr-original" target="_blank">
+            View Project
         </a>
     </div>
 
@@ -73,10 +91,10 @@
         <p>
             I have experience in automation, scripting, and troubleshooting through IT operations.
             My background includes working with PowerShell, Bash, and system-level problem solving.
-            I am interested in software development, cybersecurity, and applying Agile principles
-            in real-world environments.
         </p>
     </div>
+
+</div>
 
 </body>
 </html>
