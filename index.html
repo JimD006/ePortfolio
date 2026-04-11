@@ -79,21 +79,50 @@
 
 <div class="container">
 
-    <!-- OVERVIEW -->
+    <!-- SELF ASSESSMENT -->
     <div class="section">
-        <h2>Overview</h2>
+        <h2>Professional Self-Assessment</h2>
+
         <p>
-            This ePortfolio demonstrates my growth throughout the Computer Science program at
-            Southern New Hampshire University, with a focus on software engineering, data structures,
-            and database development.
+            Throughout my time in the Computer Science program at Southern New Hampshire University,
+            I have developed a strong foundation in software development, data structures, database
+            systems, and system design. The completion of this ePortfolio reflects both my technical
+            growth and my ability to apply these concepts to real-world problems.
         </p>
 
         <p>
-            The featured project highlights my ability to evaluate an existing system and implement
-            meaningful enhancements that improve performance, usability, and data management.
-            These improvements reflect real-world development practices, including modular design,
-            algorithm optimization, and persistent data handling.
+            One of the most significant areas of growth has been my ability to design and improve
+            software systems. Through the rescue animal management system, I transitioned a basic
+            console-based application into a more advanced system by implementing a graphical user
+            interface, improving code structure, and incorporating input validation.
         </p>
+
+        <p>
+            I strengthened my understanding of data structures and algorithms by optimizing performance
+            using HashMaps, improving lookup operations from O(n) to O(1). Additionally, I implemented
+            a file-based persistence system to simulate database functionality, enabling full CRUD
+            operations and improving data reliability.
+        </p>
+
+        <p>
+            These artifacts demonstrate my ability to evaluate, enhance, and implement computing
+            solutions that are efficient, scalable, and aligned with real-world industry practices.
+        </p>
+    </div>
+
+    <!-- CODE REVIEW -->
+    <div class="section">
+        <h2>Code Review</h2>
+
+        <p>
+            This code review provides an overview of the original system, identifies areas for
+            improvement, and outlines the enhancements made across software design, algorithms,
+            and databases.
+        </p>
+
+        <a class="btn" href="YOUR_VIDEO_LINK_HERE" target="_blank">
+            Watch Code Review
+        </a>
     </div>
 
     <!-- SOFTWARE DESIGN -->
@@ -103,41 +132,24 @@
         <h3>Rescue Animal Management System</h3>
 
         <p>
-            The Rescue Animal System was originally developed as a console-based application
-            and later enhanced to improve usability, structure, and maintainability. The system
-            manages rescue animal records and allows users to perform key operations such as
-            adding, reserving, and viewing animals.
+            The system was enhanced from a console-based application into a GUI-driven system
+            using Java Swing. The codebase was restructured to improve modularity and maintainability,
+            while input validation was added to ensure data integrity.
         </p>
-
-        <p>
-            To improve user experience, the application was redesigned with a graphical user
-            interface using Java Swing. This transition required restructuring the program to
-            separate user interface logic from core functionality, resulting in a more modular
-            and maintainable codebase. Additionally, input validation and error handling were
-            implemented to ensure data accuracy and prevent invalid user input.
-        </p>
-
-        <h3>Enhancements</h3>
-        <ul>
-            <li>Converted console-based system to Java Swing GUI</li>
-            <li>Refactored code into modular and maintainable structure</li>
-            <li>Implemented input validation and error handling</li>
-            <li>Improved user interaction and usability</li>
-        </ul>
 
         <h3>Skills Demonstrated</h3>
         <ul>
-            <li>Software design and modular development</li>
-            <li>User interface development</li>
-            <li>Code refactoring and maintainability</li>
+            <li>Software design and modular architecture</li>
+            <li>GUI development (Java Swing)</li>
+            <li>Input validation and error handling</li>
         </ul>
 
         <a class="btn" href="https://github.com/JimD006/rescue-animal-original" target="_blank">
-            View Original Project
+            Original Code
         </a>
 
         <a class="btn" href="https://github.com/JimD006/rescue-animal-enhanced" target="_blank">
-            View Enhanced Project
+            Enhanced Code
         </a>
     </div>
 
@@ -146,31 +158,16 @@
         <h2>Algorithms & Data Structures</h2>
 
         <p>
-            Enhancements to this system focused on improving efficiency and performance through
-            the implementation of more appropriate data structures. The original system relied
-            on linear searches using ArrayLists, resulting in O(n) time complexity for retrieving
-            and updating records.
+            Performance improvements were achieved by replacing linear search operations with
+            HashMap-based lookups, reducing time complexity from O(n) to O(1). ArrayLists were
+            retained for iteration, creating a balanced and efficient design.
         </p>
-
-        <p>
-            To optimize performance, HashMaps were introduced to enable constant-time O(1)
-            lookup operations. This significantly improved the speed of searching, updating,
-            and removing records. ArrayLists were retained for iteration and display purposes,
-            creating a balanced design that supports both efficient access and structured output.
-        </p>
-
-        <h3>Enhancements</h3>
-        <ul>
-            <li>Replaced linear search with HashMap for O(1) lookup</li>
-            <li>Improved performance of data retrieval and update operations</li>
-            <li>Implemented dual data structures (ArrayList + HashMap)</li>
-        </ul>
 
         <h3>Skills Demonstrated</h3>
         <ul>
-            <li>Time complexity analysis and optimization (Big-O)</li>
-            <li>Data structure selection and implementation</li>
-            <li>Performance optimization techniques</li>
+            <li>Time complexity optimization (Big-O)</li>
+            <li>Data structure selection</li>
+            <li>Performance tuning</li>
         </ul>
     </div>
 
@@ -179,31 +176,32 @@
         <h2>Databases</h2>
 
         <p>
-            The system was enhanced to incorporate persistent data storage, allowing information
-            to be retained and retrieved across application sessions. In the original implementation,
-            all data was stored in memory, resulting in data loss when the application terminated.
+            A file-based persistence system was implemented to allow data to be stored and retrieved
+            across sessions. This introduced database-like functionality and enabled full CRUD operations
+            while maintaining data integrity.
         </p>
-
-        <p>
-            To address this limitation, a file-based persistence layer was implemented to simulate
-            database functionality. This enhancement introduced structured data storage and enabled
-            the system to support full CRUD operations, including creating, reading, updating, and
-            deleting records. Data integrity was further improved by ensuring that all modifications
-            are consistently saved, maintaining synchronization between application state and stored data.
-        </p>
-
-        <h3>Enhancements</h3>
-        <ul>
-            <li>Implemented file-based database for persistence</li>
-            <li>Developed full CRUD operations</li>
-            <li>Ensured data integrity through consistent saving</li>
-        </ul>
 
         <h3>Skills Demonstrated</h3>
         <ul>
             <li>Data persistence and storage design</li>
-            <li>CRUD operation implementation</li>
-            <li>Database design concepts</li>
+            <li>CRUD operations</li>
+            <li>Data integrity and synchronization</li>
+        </ul>
+    </div>
+
+    <!-- NARRATIVES -->
+    <div class="section">
+        <h2>Project Narratives</h2>
+
+        <p>
+            The following documents describe the enhancements made to the system and the skills
+            demonstrated in each category.
+        </p>
+
+        <ul>
+            <li><a href="LINK_TO_SOFTWARE_DOC">Software Design Narrative</a></li>
+            <li><a href="LINK_TO_ALGO_DOC">Algorithms Narrative</a></li>
+            <li><a href="LINK_TO_DB_DOC">Database Narrative</a></li>
         </ul>
     </div>
 
@@ -211,45 +209,13 @@
     <div class="section">
         <h2>Technical Skills</h2>
 
-        <p>
-            The following technical skills were developed and applied throughout the design,
-            enhancement, and implementation of this project.
-        </p>
-
         <ul>
             <li>Java</li>
             <li>Data Structures (ArrayList, HashMap)</li>
-            <li>File-Based Data Storage</li>
-            <li>GUI Development (Java Swing)</li>
-            <li>Software Design and System Architecture</li>
+            <li>Database Concepts (Persistence, CRUD)</li>
+            <li>GUI Development</li>
+            <li>Software Design</li>
         </ul>
-    </div>
-
-    <!-- ABOUT ME -->
-    <div class="section">
-        <h2>About Me</h2>
-
-        <p>
-            I began my career in the United States Navy as a Cryptologic Technician Technical (CTT),
-            where I developed a strong foundation in signals analysis, security, and mission-critical operations.
-        </p>
-
-        <p>
-            After transitioning from the Navy, I worked as an IT technician, gaining hands-on experience
-            in system administration, troubleshooting, and automation.
-        </p>
-
-        <p>
-            I currently serve as a Database Analyst and Military Analyst, where I work with database systems,
-            manage access controls, and support operational analysis.
-        </p>
-
-        <p>
-            I am pursuing a Bachelor of Science in Computer Science at Southern New Hampshire University,
-            where I continue to build expertise in software development, database management, and secure
-            system design. My goal is to develop efficient, scalable, and secure solutions in real-world environments.
-        </p>
-
     </div>
 
 </div>
